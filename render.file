@@ -10,5 +10,5 @@ build:
 deploy:
   script: |
     python app.py
-  environment: python3.11.5
+  environment: python3.10.4
   port: 5000
