@@ -56,3 +56,5 @@ def chat():
     else:
         return jsonify({'response': "Hazvisi kunzwisisika, Zama kunyora zvekare...!"})
 
+if __name__ == '__main__':
+    app.run(debug=False)
